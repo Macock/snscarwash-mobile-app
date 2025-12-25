@@ -1,0 +1,282 @@
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/datasources/firebase_datasource.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "undefined_method",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_method",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The method '_statusToString' isn't defined for the type 'BookingModel'.\nTry correcting the name to the name of an existing method, or defining a method named '_statusToString'.",
+	"source": "dart",
+	"startLineNumber": 163,
+	"startColumn": 32,
+	"endLineNumber": 163,
+	"endColumn": 47
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/datasources/local_datasource.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": "invalid_constant",
+	"severity": 8,
+	"message": "Invalid constant value.",
+	"source": "dart",
+	"startLineNumber": 110,
+	"startColumn": 20,
+	"endLineNumber": 115,
+	"endColumn": 6,
+	"relatedInformation": [
+		{
+			"startLineNumber": 17,
+			"startColumn": 17,
+			"endLineNumber": 17,
+			"endColumn": 21,
+			"message": "The error is in the super constructor invocation of 'UserModel', and occurs here.",
+			"resource": "/D:/courses/flutter/car_wash_app/lib/data/models/user_model.dart"
+		}
+	]
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/datasources/local_datasource.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "missing_required_argument",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/missing_required_argument",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The named parameter 'role' is required, but there's no corresponding argument.\nTry adding the required argument.",
+	"source": "dart",
+	"startLineNumber": 110,
+	"startColumn": 26,
+	"endLineNumber": 110,
+	"endColumn": 35
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/datasources/local_datasource.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "missing_required_argument",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/missing_required_argument",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The named parameter 'createdAt' is required, but there's no corresponding argument.\nTry adding the required argument.",
+	"source": "dart",
+	"startLineNumber": 110,
+	"startColumn": 26,
+	"endLineNumber": 110,
+	"endColumn": 35
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/repositories/booking_repository_impl.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "missing_required_argument",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/missing_required_argument",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The named parameter 'userName' is required, but there's no corresponding argument.\nTry adding the required argument.",
+	"source": "dart",
+	"startLineNumber": 13,
+	"startColumn": 26,
+	"endLineNumber": 13,
+	"endColumn": 38
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/repositories/booking_repository_impl.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "missing_required_argument",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/missing_required_argument",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The named parameter 'userEmail' is required, but there's no corresponding argument.\nTry adding the required argument.",
+	"source": "dart",
+	"startLineNumber": 13,
+	"startColumn": 26,
+	"endLineNumber": 13,
+	"endColumn": 38
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/repositories/booking_repository_impl.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "missing_required_argument",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/missing_required_argument",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The named parameter 'carWashName' is required, but there's no corresponding argument.\nTry adding the required argument.",
+	"source": "dart",
+	"startLineNumber": 13,
+	"startColumn": 26,
+	"endLineNumber": 13,
+	"endColumn": 38
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/repositories/booking_repository_impl.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "missing_required_argument",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/missing_required_argument",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The named parameter 'carWashAddress' is required, but there's no corresponding argument.\nTry adding the required argument.",
+	"source": "dart",
+	"startLineNumber": 13,
+	"startColumn": 26,
+	"endLineNumber": 13,
+	"endColumn": 38
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/repositories/booking_repository_impl.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "missing_required_argument",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/missing_required_argument",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The named parameter 'createdAt' is required, but there's no corresponding argument.\nTry adding the required argument.",
+	"source": "dart",
+	"startLineNumber": 13,
+	"startColumn": 26,
+	"endLineNumber": 13,
+	"endColumn": 38
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/data/repositories/booking_repository_impl.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "missing_required_argument",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/missing_required_argument",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The named parameter 'updatedAt' is required, but there's no corresponding argument.\nTry adding the required argument.",
+	"source": "dart",
+	"startLineNumber": 13,
+	"startColumn": 26,
+	"endLineNumber": 13,
+	"endColumn": 38
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/presentation/screens/booking_screen.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "undefined_method",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_method",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The method 'book' isn't defined for the type 'BookingProvider'.\nTry correcting the name to the name of an existing method, or defining a method named 'book'.",
+	"source": "dart",
+	"startLineNumber": 197,
+	"startColumn": 65,
+	"endLineNumber": 197,
+	"endColumn": 69
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/presentation/screens/favorites_screen.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "undefined_method",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_method",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The method 'loadFavorites' isn't defined for the type 'CarWashProvider'.\nTry correcting the name to the name of an existing method, or defining a method named 'loadFavorites'.",
+	"source": "dart",
+	"startLineNumber": 17,
+	"startColumn": 60,
+	"endLineNumber": 17,
+	"endColumn": 73
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/presentation/screens/favorites_screen.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "undefined_getter",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_getter",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The getter 'favorites' isn't defined for the type 'CarWashProvider'.\nTry importing the library that defines 'favorites', correcting the name to the name of an existing getter, or defining a getter or field named 'favorites'.",
+	"source": "dart",
+	"startLineNumber": 33,
+	"startColumn": 38,
+	"endLineNumber": 33,
+	"endColumn": 47
+}]
+[{
+	"resource": "/D:/courses/flutter/car_wash_app/lib/presentation/screens/favorites_screen.dart",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "undefined_method",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_method",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The method 'toggleFavorite' isn't defined for the type 'CarWashProvider'.\nTry correcting the name to the name of an existing method, or defining a method named 'toggleFavorite'.",
+	"source": "dart",
+	"startLineNumber": 82,
+	"startColumn": 32,
+	"endLineNumber": 82,
+	"endColumn": 46
+}]
