@@ -6,7 +6,6 @@ class AuthProvider extends ChangeNotifier {
   final FirebaseRepository _repository;
 
   AuthProvider(this._repository) {
-    // Подписка на изменения состояния аутентификации
     _repository.authStateChanges.listen((user) {
       _currentUser = user;
       notifyListeners();

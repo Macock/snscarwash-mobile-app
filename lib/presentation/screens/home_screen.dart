@@ -1,11 +1,10 @@
-// presentation/screens/home_screen.dart (ИСПРАВЛЕННЫЙ)
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 import 'map_screen.dart';
 import 'booking_screen.dart';
 import 'user/my_bookings_screen.dart';
-import 'favorites_screen.dart';  // ДОБАВИТЬ
+import 'favorites_screen.dart';
 import 'profile_screen.dart';
 import 'admin/admin_dashboard_screen.dart';
 

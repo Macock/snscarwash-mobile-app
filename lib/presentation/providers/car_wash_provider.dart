@@ -1,4 +1,3 @@
-// presentation/providers/car_wash_provider.dart (ПОЛНОСТЬЮ ОБНОВЛЕННЫЙ)
 import 'package:flutter/material.dart';
 import '../../domain/entities/car_wash.dart';
 import '../../domain/repositories/firebase_repository.dart';
@@ -24,7 +23,6 @@ class CarWashProvider extends ChangeNotifier {
   bool get isLoading => _isLoading;
   String? get error => _error;
 
-  // Инициализация - подписка на stream автомоек из Firebase
   void init() {
     if (_firebaseRepository != null) {
       _firebaseRepository!.getCarWashes().listen(
@@ -46,13 +44,10 @@ class CarWashProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      // Если используем Firebase
       if (_firebaseRepository != null) {
-        // Данные уже загружаются через stream в init()
         _isLoading = false;
         notifyListeners();
       }
-      // Если используем локальный источник
       else if (_localRepository != null) {
         _carWashes = await _localRepository!.getAllCarWashes();
         _isLoading = false;
@@ -69,7 +64,6 @@ class CarWashProvider extends ChangeNotifier {
     try {
       if (_firebaseRepository != null) {
         // TODO: Реализовать избранное в Firebase
-        // Пока используем локальную фильтрацию
         _favorites = [];
         notifyListeners();
       } else if (_localRepository != null) {
